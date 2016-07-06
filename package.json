@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "nyc --require babel-core/register mocha",
-    "report": "nyc -r html --require babel-core/register mocha"
+    "report": "nyc -r html --require babel-core/register mocha",
+    "coverage": "nyc --reporter=text-lcov --require babel-core/register mocha | coveralls"
   },
   "author": "Kyle Mendes",
   "license": "MIT",
@@ -13,6 +14,7 @@
     "babel-core": "^6.10.4",
     "babel-preset-es2015": "^6.9.0",
     "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
     "istanbul": "^0.4.4",
     "mocha": "^2.5.3",
     "nyc": "^6.6.1"

@@ -6,3 +6,5 @@ node_js:
   - "4.2"
   - "4"
   - "iojs"
+
+after_success: npm run coverage
