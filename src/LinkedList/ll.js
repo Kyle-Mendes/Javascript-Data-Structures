@@ -77,7 +77,7 @@ export default class LinkedList {
 		}
 	}
 
-	/**
+	/*
 	 * Returns the value of the last node WITHOUT deleting it from the list.
 	 *
 	 * @return {*} The value of the last node in the list.

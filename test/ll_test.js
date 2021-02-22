@@ -102,7 +102,7 @@ describe('LinkedLst', () => {
 	});
 
 	describe('mutating', () => {
-		it('Can remove the head\'s value', () => {
+it('Can remove the head\'s value', () => {
 			expect(ll.shift()).to.equal(1);
 			expect(ll.getHead()).to.equal(2);
 		});
